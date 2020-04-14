@@ -52,9 +52,6 @@ color:#fff
 #container{
 width: 100vw;
 height: 100vh;
-/* scroll-behavior: smooth; */
-
-
 }
 #container div
 {
@@ -75,7 +72,6 @@ font-size: 8em;
 text-transform: uppercase;
 color:teal
 }
-
 
 #container div#about
 {
@@ -139,7 +135,6 @@ position: relative;
     display:flex;
     justify-content: center;
     align-items:center;
-    /* background: red; */
     color: #fff;
   }
   section .content{
@@ -156,13 +151,9 @@ position: relative;
     transition:0.5s;
    transform-origin: left;
    transform:scaleX(0);
-
-
   }
   section .content h2[data-scroll="in"]{
     transform:scaleX(1);
-
-
   }
   section .content h2::before{
     content:'';
@@ -275,20 +266,7 @@ position: absolute;
 top:25%;
 cursor: pointer;
  }
- /* .prew, .next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	padding: 16px;
-	margin-top: -22px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 0.8s ease;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-} */
+
  #slider button.next{
     border-radius: 10px 0px 0px 10px;
     margin-left: 660px;
@@ -404,3 +382,18 @@ cursor: pointer;
     from {opacity: .4}
     to {opacity: 1}
   }
+
+   /* .prew, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.8s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+} */
